@@ -1,5 +1,5 @@
-switchscheme = {
-  "Rimkomatic/switchscheme.nvim",
+return {
+  "deniscrocha/switchscheme.nvim",
   lazy = false,
   cmd = { "SwitchColorscheme" },
   dependencies = { "nvim-telescope/telescope.nvim" },
@@ -16,5 +16,3 @@ switchscheme = {
     }
   end,
 }
-
-return {}
